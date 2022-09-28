@@ -8,7 +8,26 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
-    <p>This is a template</p>    
+    <div class="containerr">
+        <div class="row">
+            <label class="col-md-6" for="url">Adja meg a kép URL-jét: </label>
+            <input class="col-md-6" type="text" name="url" id="url">
+        </div>
+        <div class="row">
+            <label class="col-md-6" for="szelesseg">Adja meg a kép szélességét pixelben: </label>
+            <input class="col-md-6" type="number" name="szelesseg" id="szelesseg">
+        </div>
+        <div class="row">
+            <label class="col-md-6" for="keretVastagsag">Adja meg a kép keretének vastagságát: </label>
+            <input class="col-md-6" type="number" name="keretVastagsag" id="keretVastagsag">
+        </div>
+        <div class="row">
+            <label class="col-md-6" for="keretSzin">Válassza ki a kép keretének színét: </label>
+            <input class="col-md-6" type="color" name="keretSzin" id="keretSzin">
+        </div>
+        <img src="" id="kep">
+    </div>
+
     <script src='main.js'></script>
 </body>
 </html>
