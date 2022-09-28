@@ -4129,3 +4129,14 @@ body {
 .row * {
     padding-top: 10px;
 }
+
+footer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dark-mode {
+    background-color: #6F7378;
+    color: white;
+}
