@@ -23,5 +23,14 @@ document.getElementById("keretSzin").addEventListener("input", (evt) => {
     kep.style.borderColor = keretSzin;
 });
 
+document.getElementById("submitButton").addEventListener("click", () => {
+    if (document.getElementsByTagName("body")[0].classList.contains("dark-mode"))
+    {
+        document.getElementsByTagName("body")[0].classList.remove("dark-mode");
+    } else {
+        document.getElementsByTagName("body")[0].classList.add("dark-mode");
+    }
+});
+
 
 
